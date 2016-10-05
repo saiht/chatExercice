@@ -4,14 +4,15 @@
 *             RTFM !              *
 ***********************************/
 
-You have to create a chat web client in angular.
-You can go as far as you'd like. You have 24h plain.
+You have to create a client web chat client in angular.
+You can go as far as you'd like. You have 48-72h.
 A clean and functionnal code is the main goal. It can
-be a very simple chat or a full features one.
+be a very simple chat or a full-featured one.
 
 You have to use angular and socketIo. The rest is up
-to you, just consider the best to do in this situation.
-Think ! before act, crawl the internet, don't worry ! :)
+to you, just consider the best to do and/or use in this
+situation. Think ! before act, crawl the internet,
+don't worry ! :)
 
 Have fun ! :)
 
