@@ -117,6 +117,14 @@ data: {
 	roomName: String
 }
 
+// server response to 'self:join' request
+'self:join'
+data: {
+	roomName: String,
+	users: Array[String],
+	messages: Array[Object]
+}
+
 // someone else sent a message in a room you're in
 'send:message'
 data: {
@@ -148,11 +156,7 @@ data: {
 // ask the server to join a room
 // if the room doesn't exist it may be created (needs basic rights)
 'self:join'
-data: {
-	roomName: String,
-	users: Array[String],
-	messages: Array[Object]
-}
+data: roomName: String
 
 // send your message
 'send:message'
