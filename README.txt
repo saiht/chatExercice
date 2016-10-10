@@ -148,7 +148,11 @@ data: {
 // ask the server to join a room
 // if the room doesn't exist it may be created (needs basic rights)
 'self:join'
-data: roomName: String
+data: {
+	roomName: String,
+	users: Array[String],
+	messages: Array[Object]
+}
 
 // send your message
 'send:message'
